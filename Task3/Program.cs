@@ -64,5 +64,5 @@ int minDigits = MinDigits(myArray);
 System.Console.WriteLine($"Минимальное значение массива {minDigits}");
 int maxDigits = MaxDigits(myArray);
 System.Console.WriteLine($"Минимальное значение массива {maxDigits}");
-int sumDigits = minDigits + maxDigits;
-System.Console.WriteLine($"Сумма минимального и максимального элементов массива равна {sumDigits}");
+int differenceDigits = maxDigits - minDigits;
+System.Console.WriteLine($"Разница максимального и минимального элементов массива равна {differenceDigits}");
